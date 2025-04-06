@@ -3,15 +3,16 @@
 Tasks Manage
 
 Usage:
-    tasks.py add <title>
-    tasks.py list [--completed | --pending]
-    tasks.py remove [<id> | --completed | --all]
-    tasks.py update  <id> (completed | pending)
+    taskManager.py add <title>
+    taskManager.py list [--completed | --pending]
+    taskManager.py remove [<id> | --completed | --all]
+    taskManager.py update  <id> (completed | pending)
 
 Options:
     --help          Show this screen
     --completed     Completed  tasks
     --pending       Pinding tasks
+    --all           All tasks
 
 """
 import os
